@@ -1,0 +1,93 @@
+.chat-dialog {
+  justify-content: center;
+}
+.chat-rectangle {
+  height: 900px;
+  margin-top: 6rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 84px #E9E9E9;
+  border-radius: 50px;
+}
+.chat-row {
+  justify-content: space-between;
+  display:flex;
+  padding: 30px 60px;
+}
+.chat-icon {
+  justify-content: space-between;
+  display:flex;
+}
+
+.chat-icon h2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 50px;
+}
+.chat-button {
+  justify-content: space-between;
+  display:flex;
+}
+.chat-btn-reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 8px;
+  background: linear-gradient(98.24deg, #6DDCFF 0%, #7F60F9 100%);
+  border-radius: 100px;
+  color: white;
+  border: none;
+  margin-right: 50px;
+}
+.chat-btn-close {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background-color: #FFFFFF;
+  padding: 8px;
+}
+.chat-line {
+  position: relative;
+  border: 1px solid #E6E6E6;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+.chat-box {
+  position: relative;
+  margin: auto;
+  height: 750px;
+  width: 90%;
+}
+.cs-main-container {
+  border: none;
+}
+.cs-chat-container .cs-message-input {
+  border: none;
+}
+.cs-message-input__tools:first-child .cs-button:last-child {
+  display: none;
+}
+.cs-message-input__content-editor-wrapper {
+  height: 5em;
+  border-radius: 3em;
+  padding: 1.8em 2em;
+  border: 1px solid #E1E1E1;
+  background-color: #FFFFFF;
+}
+.cs-message-input__content-editor-container {
+  background: #FFFFFF;
+}
+.cs-message__content {
+  background-color: #F8F8F8;
+}
+.cs-message-input__tools:last-child .cs-button:last-child {
+  margin: auto;
+}
+.cs-message-input__content-editor {
+  background-color: #FFFFFF;
+}
+.cs-message--outgoing .cs-message__content {
+  background-color: #F8F8F8;
+}

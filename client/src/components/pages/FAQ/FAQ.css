@@ -1,0 +1,42 @@
+.faq-container{
+    padding: 5%;
+}
+.faq-title{
+    /* padding: 4%; */
+}
+.faq-card{
+    display: flex;
+}
+.img-stu{
+    width: 100%;
+}
+.square {
+    height: 180px;
+    width: 100%;
+    background-color: white;
+    border-radius: 100px;
+  }
+.faq-question{
+
+    margin-left: 8%;
+    padding-top: 2%;
+}
+.faq-answer{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.get-in-touch{
+    display: flex;
+    flex-direction: row;
+}
+.get-in-touch-btn{
+    margin-left: 35%;
+    margin-right: 5%;
+    width:10%;
+    height: 60px;
+    border-radius: 100px;
+    background: linear-gradient(98.24deg, #6DDCFF 0%, #7F60F9 100%);
+    border: none;
+    font-size: 16px;
+    color: white;
+}

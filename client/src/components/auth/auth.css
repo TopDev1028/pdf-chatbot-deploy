@@ -1,0 +1,83 @@
+.login-form {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: absolute;
+  overflow: hidden;
+}
+.login-container {
+  display: flex;
+}
+.col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.login-left-back {
+  position: absolute;
+  height: 100vh;
+  z-index: 1100;
+  width: 100%
+}
+.login-left-front {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  z-index: 2000;
+  width: 80%;
+  height: 80vh;
+}
+.login-logo {
+  position: relative;
+  margin: 20% 39%;
+  z-index: 23200;
+}
+.login-txt {
+  position: relative;
+  text-align: left;
+  margin: auto 17%;
+  z-index: 33200;
+}
+.login-title {
+  padding-top: 30%;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+}
+.login-register {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  /* flex-direction: row; */
+  font-size: 15px;
+}
+.login-link {
+  margin-right: 10%;
+}
+.login-gotoregister {
+  bottom: 0;
+}
+#email {
+  border-radius: 10px;
+}
+#password {
+  border-radius: 10px;
+}
+.text-center {
+  text-align: left ;
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 2%;
+}
+.login-submit-btn {
+  background-image: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
+  width: 30%;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
